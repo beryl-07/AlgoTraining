@@ -1,4 +1,4 @@
-package graph.bfs.JumpGameIII
+package graph.bfs.jumpGameIII
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
