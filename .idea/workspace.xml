@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="059bee9f-4688-4995-ad80-9bd74c607761" name="Changes" comment="First Commit for 2023 year 🥲">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dynamicProgramming/Solution.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/dynamicProgramming/SolutionTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dynamicProgramming/MaximalSquare/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dynamicProgramming/MaximalSquare/Solution_.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dynamicProgramming/NumberFibonacci/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/dynamicProgramming/PascalTriangle/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/dynamicProgramming/MaximalSquare/SolutionTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/dynamicProgramming/PascalTriangle/SolutionTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dynamicProgramming/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/dynamicProgramming/SolutionTest.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +66,29 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="dynamicProgramming.MaximalSquare" />
+      <recent name="dynamicProgramming.PascalTriangle" />
       <recent name="graph.bfs.waterAndJugProblem" />
       <recent name="graph.bfs.JumpGameIII" />
       <recent name="graph.bfs.RottingOranges" />
-      <recent name="graph.bfs.shortestPathBinaryMatrix" />
-      <recent name="graph.bfs.nearestExitFromEntranceInMaze" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.SolutionTest">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgoTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dynamicProgramming.MaximalSquare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dynamicProgramming.MaximalSquare" />
+      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.MaximalSquare.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest.fibTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoTraining" />
       <extension name="coverage">
@@ -86,6 +107,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
         <item itemvalue="JUnit.SolutionTest.fibTest" />
       </list>
     </recent_temporary>
