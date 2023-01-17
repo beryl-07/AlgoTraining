@@ -53,16 +53,20 @@ public class MaxHeap {
     }
     public void insert(int element) {
         if (this.size < this.maxsize) {
-            Heap[++size] = element;
-            int current = size;
+            Heap[++this.size] = element;
+            int current = this.size;
             heapifyUp(current);
         } else {
             System.out.println("Sorry, Heap fill");
         }
     }
     public void print() {
-        for (int i = 1; i <= size / 2; i++) {
-            System.out.println( Heap[i] + " :\n\t Left Child: " + Heap[this.leftChild(i)] + "\n\t Right Child: " + Heap[rightChild(i)]);
+        for (int i = 1; i<= getParent(this.size); i++) {
+            try {
+                System.out.println( this.Heap[i] + " :\n\t Left Child: " + this.Heap[this.leftChild(i)] + "\n\t Right Child: " + this.Heap[rightChild(i)]);
+            } catch (Exception e) {
+                System.out.println( this.Heap[i] + " :\n\t Left Child: " + this.Heap[this.leftChild(i)]);
+            }
         }
     }
     public int extractMax() {
@@ -74,19 +78,20 @@ public class MaxHeap {
     public static void main(String[] args)
     {
 
-        MaxHeap maxHeap = new MaxHeap(8);
-        maxHeap.insert(1);
-        maxHeap.insert(4);
-        maxHeap.insert(2);
-        maxHeap.insert(5);
-        maxHeap.insert(13);
-        maxHeap.insert(6);
-        maxHeap.insert(17);
-        maxHeap.insert(3);
+        //MaxHeap maxHeap = new MaxHeap(8);
+        //maxHeap.insert(1);
+        //maxHeap.insert(4);
+        //maxHeap.insert(2);
+        //maxHeap.insert(5);
+        //maxHeap.insert(13);
+        //maxHeap.insert(6);
+        //maxHeap.insert(17);
+        //maxHeap.insert(3);
 
-        System.out.println("Maximum is:" + maxHeap.extractMax());
+        //System.out.println("Maximum is:" + maxHeap.extractMax());
 
-        maxHeap.print();
+        //maxHeap.print();
+        //System.out.println(maxHeap.Heap[9]);
 
         MaxHeap maxHeap1 = new MaxHeap(10);
         maxHeap1.insert(10);
@@ -100,10 +105,10 @@ public class MaxHeap {
         maxHeap1.insert(90);
         maxHeap1.insert(100);
 
-        System.out.println("Maximum is:" + maxHeap1.extractMax());
 
         maxHeap1.print();
-
+        //System.out.println("Maximum is:" + maxHeap1.extractMax());
+        //System.out.println("Heap size: "+maxHeap1.Heap.length+ " maxHeap.Heap[10]:"+maxHeap1.Heap[10]);
     }
 
 }
