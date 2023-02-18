@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="059bee9f-4688-4995-ad80-9bd74c607761" name="Changes" comment="Implement MinHeap from scratch in java 🥲">
+    <list default="true" id="059bee9f-4688-4995-ad80-9bd74c607761" name="Changes" comment="Merge k Sorted Lists">
+      <change afterPath="$PROJECT_DIR$/.attach_pid2434" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/heapDataStructure/mergekSortedLists/Solution.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/heapDataStructure/mergekSortedLists/SolutionTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/HeapDataStructure/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/heapDataStructure/MaxHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/HeapDataStructure/MergekSortedLists/Solution.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/HeapDataStructure/MinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/heapDataStructure/MinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/HeapDataStructure/MaxHeapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/HeapDataStructure/MergekSortedLists/SolutionTest.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -35,45 +43,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/home/bryl07/Bureau/AdvancedDataStructures",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bryl07/Bureau/AdvancedDataStructures&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="HeapDataStructure.ImplementHeap" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="HeapDataStructure.MergekSortedLists" />
       <recent name="HeapDataStructure" />
       <recent name="dynamicProgramming.MaximalSquare" />
       <recent name="dynamicProgramming.PascalTriangle" />
       <recent name="graph.bfs.waterAndJugProblem" />
-      <recent name="graph.bfs.JumpGameIII" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxHeap">
+  <component name="RunManager" selected="JUnit.SolutionTest.mergeKLists0">
     <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HeapDataStructure.MaxHeap" />
+      <option name="MAIN_CLASS_NAME" value="heapDataStructure.MaxHeap" />
       <module name="AlgoTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HeapDataStructure.*" />
+          <option name="PATTERN" value="heapDataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,7 +96,7 @@
       <module name="AlgoTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HeapDataStructure.*" />
+          <option name="PATTERN" value="heapDataStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,17 +123,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.fibTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.mergeKLists0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AlgoTraining" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dynamicProgramming.*" />
+          <option name="PATTERN" value="heapDataStructure.mergekSortedLists.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="dynamicProgramming" />
-      <option name="MAIN_CLASS_NAME" value="dynamicProgramming.SolutionTest" />
-      <option name="METHOD_NAME" value="fibTest" />
+      <option name="PACKAGE_NAME" value="heapDataStructure.mergekSortedLists" />
+      <option name="MAIN_CLASS_NAME" value="heapDataStructure.mergekSortedLists.SolutionTest" />
+      <option name="METHOD_NAME" value="mergeKLists0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.testMergeKLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AlgoTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="heapDataStructure.mergekSortedLists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="HeapDataStructure.MergekSortedLists" />
+      <option name="MAIN_CLASS_NAME" value="heapDataStructure.mergekSortedLists.SolutionTest" />
+      <option name="METHOD_NAME" value="testMergeKLists" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,10 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.mergeKLists0" />
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.SolutionTest.testMergeKLists" />
         <item itemvalue="Application.MaxHeap" />
         <item itemvalue="JUnit.MaxHeapTest.test" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest.fibTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673957135228</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Merge k Sorted Lists">
+      <created>1674168223605</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674168223605</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +253,7 @@
     <MESSAGE value="Max Heap implementation in Java " />
     <MESSAGE value="Debug Print Method in MaxHeap.java " />
     <MESSAGE value="Implement MinHeap from scratch in java " />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement MinHeap from scratch in java " />
+    <MESSAGE value="Merge k Sorted Lists" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge k Sorted Lists" />
   </component>
 </project>

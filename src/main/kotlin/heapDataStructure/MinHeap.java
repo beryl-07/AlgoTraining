@@ -1,4 +1,4 @@
-package HeapDataStructure;
+package heapDataStructure;
 
 public class MinHeap {
     private int[] Heap;
@@ -10,6 +10,18 @@ public class MinHeap {
         this.maxSize = size;
         this.size = 0;
         this.Heap[0] = Integer.MIN_VALUE;
+    }
+    public MinHeap(int[] array) {
+        this.Heap = new int [array.length+1];
+        this.maxSize = array.length;
+        this.size = array.length;
+        this.Heap[0] = Integer.MIN_VALUE;
+        for (int i=0; i<array.length; i++) {
+            this.Heap[i+1] = array[i];
+        }
+        for (int i=getParent(this.size); i>0; i--) {
+            heapifyDown(i);
+        }
     }
     public int getParent (int position) {
         return (position / 2);

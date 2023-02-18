@@ -1,4 +1,4 @@
-package HeapDataStructure;
+package heapDataStructure;
 
 // Ref: https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/resources/lecture-8-binary-heaps/
 public class MaxHeap {
