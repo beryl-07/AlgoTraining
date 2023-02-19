@@ -2,8 +2,7 @@ package heapDataStructure.mergekSortedLists
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
-
-class SolutionTest {
+class SolutionAltTest {
     @Test
     fun mergeKLists0() {
         val list1 = ListNode(1, ListNode(4, ListNode(5)))
