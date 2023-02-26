@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="059bee9f-4688-4995-ad80-9bd74c607761" name="Changes" comment="Merge k Sorted Lists">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/graph/bfs/shortestPathLength/Solution.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/heapDataStructure/mergekSortedLists/SolutionTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/heapDataStructure/mergekSortedLists/SolutionTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/graph/bfs/jumpGameIII/Solution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/graph/bfs/jumpGameIII/Solution.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/graph/bfs/waterAndJugProblem/Solution.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/graph/bfs/waterAndJugProblem/Solution.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -30,6 +32,9 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/graph/bfs/waterAndJugProblem/Solution.kt" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -59,7 +64,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -70,11 +75,11 @@
       <recent name="HeapDataStructure.ImplementHeap" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="heapDataStructure.mergekSortedLists" />
       <recent name="HeapDataStructure.MergekSortedLists" />
       <recent name="HeapDataStructure" />
       <recent name="dynamicProgramming.MaximalSquare" />
       <recent name="dynamicProgramming.PascalTriangle" />
-      <recent name="graph.bfs.waterAndJugProblem" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.SolutionTest (1)">
@@ -155,10 +160,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest (1)" />
+        <item itemvalue="JUnit.SolutionTest.testMergeKLists" />
         <item itemvalue="JUnit.SolutionTest.mergeKLists0" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest.testMergeKLists" />
+        <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="Application.MaxHeap" />
       </list>
     </recent_temporary>

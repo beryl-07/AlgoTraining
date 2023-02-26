@@ -4,7 +4,7 @@ class Solution {
     fun canReach(arr: IntArray, start: Int): Boolean {
         if (arr.isEmpty()) return false
         if (arr[start] == 0) return true
-        if (!(0 in arr)) return false
+        if (0 !in arr) return false
 
         val toSee = ArrayDeque<Int>()
         val visited = HashSet<Int>()
